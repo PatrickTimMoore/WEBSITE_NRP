@@ -1,0 +1,540 @@
+header, main, nav, footer, figure, figcaption, aside, section, article {display: block;
+}
+
+/*What is displayed around content*/
+body {background-color: #3C3C3C;
+    color: #666;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#wrapper {margin: auto;
+    width: auto;
+    min-width: 960px;
+    max-width: 2048px;
+    background-color: #707070;
+    box-shadow: 3px 3px 3px #333;
+}
+
+/*top, logo, and index article titles*/
+header {background-color: #700;
+    color: #FFF;
+    background-image: url(images/logo.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 60px;
+    padding-top: 2px;
+    padding-bottom: 13px;
+    text-align: center;
+    margin: 0;
+    font-family: "times new roman", Georgia, serif;
+    font-size: 130%;
+}
+
+/*navigation straight across*/
+nav {background-color: #E7B500;
+    font-weight: bold;
+    text-align: center;
+    padding: 0px 10px;
+    width: auto;
+}
+
+nav li {display: inline-block;
+    padding: 1em 1.5em;
+}
+
+nav ul {list-style-type: none;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+nav a {text-decoration: none;
+}
+
+nav a:link { color: #000; }
+
+nav a:visited { color: #000; }
+
+nav a:hover {  color: #FFF;}
+
+/*index left announcements text*/
+aside { float: left;
+    width: 240px;
+    background-color: #D2B48C;
+    color: #000;
+    margin: 10px 5px;
+}
+
+aside p {padding: 0 1em 0.5em 1em;
+}
+
+p {font-family: Arial, sans-serif;
+}
+
+h3, h4 {text-align: center;
+    font-family: "times new roman", Georgia, serif;
+}
+
+h3 {font-size: 150%;
+    padding-bottom: 0.5em;
+}
+
+h4 {font-size: 110%;
+}
+
+/*index right post text*/
+#rightcolumn { margin: 10px 5px 0 255px;
+    background-color: #3C3C3C;
+    color: #FFF;
+}
+
+#rightcolumn header {background-color: #3C3C3C;
+    color: #E7B500;
+    background-image: none;
+    height: 35px;
+    font-size: 120%;
+}
+
+#rightcolumn p {text-align: center;
+}
+
+.blackspace {background-color: #707070;
+    padding: 10px 0px;}
+
+.halfblackspace {background-color: #707070;
+    padding: 5px 0px;}
+
+article {padding: 0 10px 5px 10px;
+}
+
+.showname {font-style: italic;}
+
+/*pics (also in index posts)*/
+
+#gallery {position: relative;
+}
+
+#gallery ul    {width: auto;
+    list-style-type: none;
+    text-align: center;
+}
+
+#gallery li    {display: inline;
+    padding: 10px;
+}
+
+#gallery img    {border-style: none;
+}
+
+#gallery a    {text-decoration: none;
+    color: #333;
+    font-style: italic;
+}
+
+video {width: 100%;
+    height: auto;
+    max-width: 320px;
+}
+
+#centerad {margin: auto;
+    padding: 1em 3em;
+    overflow: auto;
+}
+
+#centerad h2 {text-align: center;
+    color: #E7B500;
+    padding-bottom: 1em;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
+}
+
+#centerad img {float: left;
+    position: relative;
+    display: inline;
+    padding: 10px 20px;
+}
+
+#centerad p {color: #000;
+    padding-bottom: 3em;
+    font-size: 130%;
+}
+
+#centerad a {font-weight: bold;
+    font-size: 150%;
+    padding-left: 4.5em;
+    color: #700;
+}
+
+.gallerypage {height: 270px;
+    position: relative;
+    max-width: 1200px;
+    overflow: hidden;
+}
+
+.gallerypage ul {width: 400px;
+    list-style-type: none;
+}
+
+.gallerypage li {display: inline;
+    float: left;
+    padding: 10px;
+}
+
+.gallerypage img {border: none;
+    float: none;
+}
+
+.gallerypage a {text-decoration: none;
+    color: #000;
+    font-style: italic;
+}
+
+.gallerypage span {position: absolute;
+    left: -1000px;
+    opacity: 0;
+    transition: opacity 3s ease-in-out;
+    color: #E7B500;
+}
+
+.gallerypage a:hover span {position: absolute;
+    top: 16px;
+    left: 460px;
+    text-align: center;
+    opacity: 1;
+}
+
+.gallerypagetitle {color: #700;
+    text-align: center;
+}
+
+.gallerypage p {text-align: center;
+    float: right;
+    color: #666;
+    background-color: #E7B500;
+    padding: 5px 15px;
+    margin: 20px;
+    width: 500px;
+}
+
+#ohno {background-color: #D2B48C;
+    color: #000;
+}
+
+.gallerycoming {display: block;
+    overflow: auto;
+}
+/*about dlist and contact*/
+
+
+dl {padding: 1em 3em;
+}
+
+dt {text-align: center;
+    color: #E7B500;
+    padding-bottom: 1em;
+    font-size: 130%;
+}
+
+dd {color: #000;
+    padding-bottom: 3em;
+}
+
+#mobile {display: none;
+}
+
+#desktop {display: inline;
+}
+
+#stage1 {background-repeat: no-repeat;
+    background-image: url(images/stage1.jpg);
+    background-size: 100% 100%;
+    height: 180px;
+    clear: both;
+}
+
+.black {color: #000;}
+
+
+/*form*/
+
+#instruction {color: #E7B500;
+}
+
+form {color: #700;
+    padding: 15px 45px;
+}
+
+.thanks {text-align: center;
+    color: #E7B500;
+}
+
+fieldset {border: 2px solid #FFF;
+}
+/*Coming soon posts*/
+
+.coming {display: block;
+    overflow: auto;
+}
+
+.coming img {max-width: 450px;
+    height: auto;
+    width: auto;}
+
+.adspace {background-color: #3C3C3C;
+    padding-bottom: 20px;
+    margin: 20px 0px;
+}
+
+#centeradcoming {margin: auto;
+    padding: 1em 3em;
+    overflow: auto;
+}
+
+#centeradcoming h2 {text-align: center;
+    color: #E7B500;
+    padding-bottom: 1em;
+    font-size: 2em;
+    padding: 10px;
+    margin: 0;
+}
+
+#centeradcoming img {float: left;
+    position: relative;
+    display: inline;
+    padding: 10px 20px;
+}
+
+#centeradcoming p {color: #000;
+    padding-bottom: 3em;
+    font-size: 130%;
+}
+
+#centeradcoming a {font-weight: bold;
+    font-size: 150%;
+    padding-left: 4.5em;
+    color: #700;
+}
+
+/*Students pages*/
+table {width: 80%;
+    margin: auto;
+    border: 1px solid #700;
+    border-spacing: 0;
+    margin-bottom: 25px;
+}
+
+caption {font-size: 200%;
+    color: #E7B500;
+    padding: 5px;
+    background-color: #700;
+}
+
+th {color: #700;
+    font-size: 110%;
+    background-color: #E7B500;
+}
+
+td, th {border: 1px solid #700;
+    padding: 5px;
+}
+
+td {text-align: center;
+    color: #E7B500;
+    background-color: #666;
+}
+
+.dramamask {background-image: url(images/DramaMask.png);
+    height: 97px;
+}
+
+#student {text-align: center;
+    background-color: #3C3C3C;
+    margin: 15px;
+    padding: 0.5px;
+}
+
+#student h2 {color: #E7B500;
+    font-family: "times new roman", serif;
+    font-size: 200%;
+    margin: 4px;
+}
+
+#student p {color: #FFF;
+    font-size: 120%;
+    margin-bottom: 15px;
+}
+
+#visit { color: #000;
+    text-align: center;
+}
+
+/*Schedule page*/
+
+#schedule {background-color: #D2B48C;
+    margin: 10px 30px;
+}
+
+#schedule h2 {font-size: 200%;
+    color: #700;
+    text-align: center;
+}
+
+#schedule dt, li {color: #000;
+    font-size: 120%;
+    text-align: left;
+}
+
+#schedule span {color: #700;
+    font-weight: bold;
+}
+
+/*Contact info and copyright at bottom of page*/
+footer {text-align: center;
+    font-style: italic;
+    font-size: 75%;
+    font-family: Georgia, "Times New Roman", serif;
+    padding: 0px;
+    background-color: #700;
+    padding: 10px 0;
+    color: #FFF;
+}
+
+Footer a {color: #FFF;
+}
+
+
+
+
+
+
+#why {display: none;}
+
+
+
+
+
+
+
+
+
+/*Mobile Applications*/
+/* CURRENTLY IN TESTING, PARTIAL MOLDABILITY */
+@media only screen and (max-width: 64em) {
+/*general*/
+    body {background-color: #FFF;
+        margin: 0;}
+    #wrapper {min-width: 0;
+        width: auto;
+        box-shadow: none;}
+    main {margin-left: 0;}
+    nav {float: none;
+        width: auto;
+        text-align: center;
+        padding: 0.5em;}
+    nav li {display: inline;
+        padding: 0.25em 0.75em;}
+    #tablethide {display: none;}
+/*index*/
+    aside {width: auto;
+        float: inherit;
+        margin: 20px;
+        overflow: auto;}
+    #rightcolumn { margin: 10px;
+    	overflow: hidden;
+    	clear: both;}
+    footer {margin-left: 0;}
+    #gallery {margin: auto;
+    	width: auto;}
+    .halfblackspace {padding: 0;
+    	display: none;}
+/*gallery*/
+    .gallerypage {height: auto;
+    	position: relative;
+    	overflow: auto;}
+	.gallerypage a:hover span {opacity: 0;}
+    .gallerypage p {height: auto;
+    	width: auto;
+    	margin-left: initial;
+    	margin: 10px;}
+    .gallerypage ul {width: 350px;
+    	margin: 0px 300px 0px 0px;}
+    .gallerypagetitle {font-size: 200%;}
+/*coming*/
+    .coming img {clear: both;
+    	margin: 0 auto;}
+    .coming p {float: right;
+    	padding-bottom: 5px;}
+    .coming a {float: none}
+    #centeradcoming a {display: block;
+    	float: none;
+    	margin: 0 auto;
+        padding: 0;
+        text-align: center;}
+    #centeradcoming p {padding-bottom: 0;}
+    #centeradcoming img {display: block;
+    	padding: 0;
+        margin: 0 auto;
+        float: none;
+        text-align: center;
+        max-width: 450px;
+        width: 100%;}
+/*Students*/
+    #student {padding: 10px;}
+/*About*/
+	#about {font-size: 120%;}
+    #about dt {text-align: center;}
+    #about dd {width: 80%;}
+}
+
+@media only screen and (max-width: 37.5em) {
+/*general*/
+    footer {font-size: 90%;}
+    h1 {font-size: 1.5em;}
+    nav {padding: 0;}
+    nav li {display: block;
+        margin: 0;
+        border-bottom: 2px solid #300;}
+    nav a {display: block;}
+/*index*/
+    aside {margin: 5px 5px 10px 5px;}
+    #rightcolumn { margin: 0px;}
+    #mobile {display: inline;}
+    #desktop {display: none;}
+    #rightcolumn time {display: flex;
+    	justify-content: center;
+        align-items: center;
+        margin: 3px;
+        overflow: auto;}
+    #rightcolumn header {height: auto;
+    	max-height: 65px;
+        padding-bottom: 0;}
+    #rightcolumn h2 {margin-bottom: 5px;}
+    #gallery li {display: block;
+    	width: 150px;
+        text-align: center;}
+    #gallery ul {display: table;
+    	margin:0 auto;
+        list-style-position: outside;
+        padding: 0;}
+/*gallery*/
+    .gallerypage {overflow: hidden;}
+    .gallerypage ul {display: table;
+    	margin:0 auto;
+        padding: 0;
+        width: 170px;}
+    .gallerypage li {display: block;
+    	width: 150px;
+        text-align: center;
+        float: none;
+        margin: 0;}
+    .coming {height: auto;}
+    .gallerycoming {height: auto;}
+    dl {width: auto;
+    	padding: 0;}
+/*schedule*/
+    #schedule {margin: 20px 5px;
+    	padding: 8px;}
+    #mobilehide {display: none;}
+    #tablethide {display: initial;}
+}
